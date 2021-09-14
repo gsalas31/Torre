@@ -11,6 +11,7 @@
 }
 .job_type{
     margin-right:15px;
+    text-transform: capitalize;
 }
 .jobslocations{
     display: flex;
@@ -32,4 +33,5 @@
 .compensation{
     font-size: 14px;
     margin-top: 10px;
+    text-transform: capitalize;
 }

@@ -4,7 +4,7 @@ function MainScreen(){
     return(
         <>
         <div className='container'>
-            <div className='search-container'>home</div>
+            <div className='search-container'></div>
             <div className='main-container'>
                 <div className="main-container--filters">Filtrar</div>
                 <div className='main-container--lists'>

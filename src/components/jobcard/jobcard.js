@@ -16,7 +16,7 @@ function JobCard (props){
                     {props.jobInfo.compensation.data.minAmount} <>- </>
                     {props.jobInfo.compensation.data.currency}
                     {props.jobInfo.compensation.data.maxAmount} <></>
-                    {props.jobInfo.compensation.data.periodicity}</p> 
+                    / {props.jobInfo.compensation.data.periodicity}</p> 
                 ) : (<p class='compensation'>Compesación Oculta</p>) }
         </div>
        </>

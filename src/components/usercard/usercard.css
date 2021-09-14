@@ -37,4 +37,5 @@
     font-size: 14px;
     margin-left: 10px;
     font-weight: normal;
+    text-transform: capitalize;
 }
