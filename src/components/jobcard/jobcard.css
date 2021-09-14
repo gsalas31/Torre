@@ -1,19 +1,28 @@
 .jobcardoutline{
     border: 3px solid black;
     border-radius:4px ;
-    max-width: 420px;
-    margin:20px;
+    width: 100%;
+    margin: 20px 0 20px 0;
     padding: 20px;
     box-shadow: 8px 8px 4px 2px rgba(0, 0, 255, .2);;
 }
 #title_card{
     font-size: 18px;
 }
-.typelocation{
+.job_type{
+    margin-right:15px;
+}
+.jobslocations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+.type_and_location{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width:400px;
+    width: 100%;
     font-size: 14px ;
 }
 #companyname{
@@ -22,10 +31,5 @@
 }
 .compensation{
     font-size: 14px;
-    padding-top: 5px;
-}
-#jobslocations{
-    display: flex;
-    flex-direction: row;
-    margin-right: 10px;
+    margin-top: 10px;
 }

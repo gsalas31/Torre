@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    padding: 5px;
+}
+.search-container{
+    background-color:slateblue;
+    height: 60px;
+    border-radius: 10px;
+}
+.main-container{
+    display: flex;
+    flex-direction:row;
+    margin: 5px;
+}
+.main-container--filters{
+    width: 30%;
+    height: 100vh;
+    font-size: 100px;
+    background-color:lightblue;
+    border-radius: 10px;
+}
+.main-container--lists{
+    width: 70%;
+    height: 100vh;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding:10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+a{
+    width: 100vw;
+    margin: 5px;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-items: center;  
+}
+.buttonjobs, .buttonusers{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;  
+}
+
