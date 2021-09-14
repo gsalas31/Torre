@@ -5,18 +5,17 @@ function UserCard (props){
         <>
         <div className='jobcardoutline' >
         <h2 className='name_user'>{props.userInfo.name}</h2>
-        <h4 className='subtitle'>Professional Headline</h4>
-        <h4 className='subtitle'>Location Name </h4>
-        <ul className="skills">
-            <ol id="list_item">HTML</ol>
-            <ol id="list_item">CSS</ol>
-            <ol id="list_item">JavaScript</ol>
-            <ol id="list_item">PHP</ol>
+        <h4 className='subtitle_headline'>{props.userInfo.professionalHeadline}</h4>
+        <h4 className='subtitle_location'>{props.userInfo.locationName}</h4>
+        <ul className="skills">{props.userInfo.skills
+        .map(skill => <ol id="list_item">{skill.name}</ol>)}
         </ul>
-        <p className='opento'> Open to: 
-
-
-
+        <p className='open_to'> Open to: 
+            <ul>
+                {props.userInfo.openTo
+                .map(openToCategory => <ol className='list'>{openToCategory}</ol>)
+                }
+            </ul>
         </p>
         </div>
         </>
